@@ -1,0 +1,6 @@
+== CategoryWatch ==
+
+Thie is a [https://www.mediawiki.org/wiki/Manual:Extensions MediaWiki extension] to allow you to add all pages (existing or newly created) in any category that you're watching to your watchlist.
+
+There is also a special page, Special:GroupCategoryWatch that can be used with groups so that users in a given group automatically have selected categories added to their watchlists.
+

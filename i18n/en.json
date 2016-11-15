@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"categorywatch-desc": "Adds option to include all pages of watched categories in Special:Watchlist.",
+	"tog-watchlisthidecategory": "Hide category watches from the watchlist",
+	"categorywatch-rchidecategory": "$1 category pages"
+}

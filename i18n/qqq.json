@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"categorywatch-desc": "Description for Special:Version",
+	"tog-watchlisthcategory": "[[Special:Preferences]], tab 'Watchlist'. Offers user to add all pages in a category to watchlist. {{Gender}}",
+	"categorywatch-rchidecategory": "Message to trigger option in Special:Watchlist"
+}

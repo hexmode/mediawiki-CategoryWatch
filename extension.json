@@ -1,0 +1,35 @@
+{
+	"name": "CategoryWatch",
+	"version": "0.1.0",
+	"license-name": "GPL-3.0+",
+	"author": [
+		"[http://mwstake.org Mark A. Hershberger]"
+	],
+	"require": [ "1.26" ],
+	"url": "https://www.mediawiki.org/wiki/Extension:CategoryWatch",
+	"descriptionmsg": "categorywatch-desc",
+	"type": "specialpage",
+	"MessagesDirs": {
+		"CategoryWatch": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CategoryWatch\\Hooks": "src/Hooks.php"
+	},
+	"Hooks": {
+		"RecentChange_save": [
+			"CategoryWatch\\Hooks::onRecentChange_save"
+		],
+		"SpecialWatchlistFilters": [
+			"CategoryWatch\\Hooks::onSpecialWatchlistFilters"
+		],
+		"SpecialWatchlistQuery": [
+			"CategoryWatch\\Hooks::onSpecialWatchlistQuery"
+		],
+		"GetPreferences": [
+			"CategoryWatch\\Hooks::onGetPreferences"
+		]
+	},
+	"manifest_version": 1
+}
